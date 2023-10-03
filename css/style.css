@@ -278,7 +278,7 @@ a {
 }
 
 /* ??? */
-@media (max-width: 330px) {
+/* @media (max-width: 330px) {
   :root {
     font-size: 55%;
   }
@@ -287,3 +287,4 @@ a {
     max-height: 20%;
   }
 }
+ */

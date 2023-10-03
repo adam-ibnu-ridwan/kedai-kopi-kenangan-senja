@@ -18,7 +18,7 @@
 body {
   background-color: var(--bg);
   font-family: "Poppins", sans-serif;
-/* min-height: 1100px; */
+  min-height: 1100px;
 }
 
 a {
@@ -39,7 +39,6 @@ a {
   z-index: 999;
 
   padding: 1.4rem 7%;
-  background-color: var(--bg);
   border-bottom: 3px solid var(--primary);
 }
 

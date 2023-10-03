@@ -151,7 +151,7 @@ a {
   display: none;
   border-radius: 0.5rem;
   max-height: 30%;
-  max-width: 50%;
+  max-width: 55%;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -177,12 +177,12 @@ a {
 }
 
 .note p {
-  margin: 1rem 0 1rem;
+  margin: 1rem 0;
 }
 
 .note .link-ref {
   /* position: absolute; */
-  padding-top: 1rem;
+  padding: 1rem 0 2rem;
   color: blue;
   text-decoration: underline;
   top: 70%;
@@ -274,5 +274,16 @@ a {
 
   .note {
     max-height: 19%;
+  }
+}
+
+/* ??? */
+@media (max-width: 330px) {
+  :root {
+    font-size: 55%;
+  }
+
+  .note {
+    max-height: 20%;
   }
 }

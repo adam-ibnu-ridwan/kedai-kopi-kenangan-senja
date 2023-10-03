@@ -39,6 +39,7 @@ a {
   z-index: 999;
 
   padding: 1.4rem 7%;
+  background-color: var(--bg);
   border-bottom: 3px solid var(--primary);
 }
 
